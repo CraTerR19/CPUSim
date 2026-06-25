@@ -49,7 +49,7 @@ I used FIFO because the task describes cache levels as fixed-size queues. So, if
 
 ## Files
 
-```txt
+txt
 main.cpp        - starts the simulator, handles CLI arguments
 Task.h/.cpp     - stores task details (id, burst, memory blocks)
 Parser.h/.cpp   - reads input_task2.txt
@@ -57,21 +57,17 @@ Cache.h/.cpp    - handles L1, L2, L3, RAM logic with FIFO eviction
 Scheduler.h/.cpp- Round Robin scheduling logic
 Makefile        - build instructions
 input_task2.txt - given task input
-```
+
 
 ## How to build and run
 
 Using Make:
-```bash
-make
-./cpusim.exe
-```
 
 Using g++ directly:
-```bash
+bash
 g++ -Wall -Wextra -std=c++17 main.cpp Task.cpp Parser.cpp Cache.cpp Scheduler.cpp -o cpusim.exe
 ./cpusim.exe
-```
+
 ## Output shown
 
 The program prints:
