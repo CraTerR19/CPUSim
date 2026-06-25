@@ -3,7 +3,3 @@ cpusim.exe
 
 # Ignore local output trace files
 output.txt
-
-# Ignore notes for explanation as requested by user
-NOTES_FOR_EXPLANATION.md
-*.md.tmp
